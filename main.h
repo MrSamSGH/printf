@@ -45,8 +45,8 @@ va_list lst, char bff[], int flg, int wdh, int prc, int sz);
 
 
 /* Funtions to print chars and strings */
-int print_char(const va_list types, char bff[],
-	int flg, int wdh, int prc, int sz);
+int print_char(va_list types, char bff[], int flg, int wdh,
+		int prc, int sz);
 int print_string(va_list types, char bff[],
 	int flg, int wdh, int prc, int sz);
 int print_percent(va_list types, char bff[],
